@@ -1,0 +1,38 @@
+# Ignore the directory where audit logs are stored
+/var/log/acad/
+
+# Ignore the script's temporary files
+*.old
+*.log
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Ignore build files
+*.out
+*.exe
+*.obj
+
+# Ignore configuration files
+*.conf
+*.config
+
+# Ignore personal IDE settings
+.vscode/
+.idea/
+
+# Ignore sensitive files
+*.key
+*.pem
+*.crt
+
+# Ignore backup files
+*~
+*.bak
